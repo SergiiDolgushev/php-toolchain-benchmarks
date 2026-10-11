@@ -80,7 +80,7 @@ final class Application
 
         $benchmark = new Benchmark(
             tools: ToolPaths::resolve($rootDir, $phpBinary),
-            runs: $runs,
+            runs: $runs, // @mago-expect analysis:possibly-invalid-argument
             timeout: $timeout !== null ? Duration::minutes($timeout) : null,
             skipStability: $skipStability,
             filter: new BenchmarkFilter(kind: $filterKind, tool: $filterTool, project: $filterProject),
