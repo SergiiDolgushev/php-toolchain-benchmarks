@@ -1,0 +1,119 @@
+{
+    "generated": "2026-10-11 12:26:43",
+    "kinds": {
+        "Formatters": [
+            "Formatter"
+        ],
+        "Linters": [
+            "Linter"
+        ],
+        "Analyzers": [
+            "Cold",
+            "Hot"
+        ]
+    },
+    "projects": {
+        "psl": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.54.0",
+                    "mean": 0.161525416,
+                    "stddev": 0.002291437,
+                    "min": 0.158013625,
+                    "max": 0.165811083,
+                    "memory_mb": 284.8,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.55.0",
+                    "mean": 0.162544254,
+                    "stddev": 0.001649169,
+                    "min": 0.159871834,
+                    "max": 0.165722292,
+                    "memory_mb": 288.6,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.56.0",
+                    "mean": 0.162925275,
+                    "stddev": 0.002348406,
+                    "min": 0.1580695,
+                    "max": 0.166075709,
+                    "memory_mb": 271.8,
+                    "relative": 1.0,
+                    "timed_out": false
+                }
+            ]
+        },
+        "wordpress": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.56.0",
+                    "mean": 0.74149175,
+                    "stddev": 0.020139377,
+                    "min": 0.712586375,
+                    "max": 0.763129875,
+                    "memory_mb": 756.9,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.55.0",
+                    "mean": 0.768097137,
+                    "stddev": 0.007142873,
+                    "min": 0.753174917,
+                    "max": 0.777507917,
+                    "memory_mb": 815.2,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.54.0",
+                    "mean": 0.817038516,
+                    "stddev": 0.010017376,
+                    "min": 0.798206708,
+                    "max": 0.831992125,
+                    "memory_mb": 842.9,
+                    "relative": 1.1,
+                    "timed_out": false
+                }
+            ]
+        },
+        "magento": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.56.0",
+                    "mean": 1.771749066,
+                    "stddev": 0.012732404,
+                    "min": 1.749410125,
+                    "max": 1.78913275,
+                    "memory_mb": 2652.0,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.55.0",
+                    "mean": 1.812441891,
+                    "stddev": 0.020955695,
+                    "min": 1.784158958,
+                    "max": 1.848194625,
+                    "memory_mb": 2841.9,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.54.0",
+                    "mean": 1.884338187,
+                    "stddev": 0.024995279,
+                    "min": 1.8364466670000001,
+                    "max": 1.9071425419999999,
+                    "memory_mb": 3019.0,
+                    "relative": 1.1,
+                    "timed_out": false
+                }
+            ]
+        }
+    }
+}
